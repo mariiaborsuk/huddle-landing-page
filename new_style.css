@@ -1,0 +1,194 @@
+@media screen and (min-width: 375px){
+	.container{
+		height:350vh;
+		max-width: 90vw;
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+	}
+	.button>button{
+		width: 50%;
+		height: 60px;
+	}
+.huddle{
+		flex:3;
+		background-image: url('images/bg-hero-desktop.svg');
+		background-color:    hsl(193, 100%, 96%);
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 5%;
+	}
+	.header{
+		flex:1;
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 2%;
+
+	}
+	.logo{
+		flex:1;
+	background-origin: border-box;
+	background-size: 30%;
+
+	}
+	.button1{
+		flex:1;
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-start;
+	}
+	.main{
+		flex:4;
+		display: flex;
+		flex-direction: row;
+
+	}
+	.main_content{
+		flex:1;
+		display:flex;
+		flex-direction: column;
+	}
+		.button{
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		flex:1;
+	}
+	.main_content>.big{
+		flex:1;
+	}
+	.main_content>.text{
+		flex:1;
+	}
+	
+	.picture{
+		flex:1;
+		background-size: 62%;
+	}
+	
+	.grow{
+		flex:2;
+		display: flex;
+		flex-direction: row-reverse;
+		max-width: 80%;
+		margin: auto;
+
+
+	}
+ .image{
+		background-size: 55%;
+	}
+	.text{
+		dispaly:flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.bold{
+		height:20%;
+		margin-top: 5%;
+
+	}
+	p{
+		height:40%;
+	}
+	.flowing{
+		flex:2;
+		display: flex;
+		flex-direction: row;
+		
+
+
+
+	}
+	.users{
+		flex:2;
+		display: flex;
+		flex-direction: row-reverse;
+		max-width: 80%;
+		margin: auto;
+
+	}
+.black{
+	flex:3;
+	position:relative;
+	display: flex;
+	flex-direction: column;
+
+	}
+	.content2{
+		flex:5;
+		display:flex;
+		flex-direction: row;
+	}
+	.ready{
+		position:absolute;
+		width:50%;
+		height: 200px;
+		left: 25%;
+		top: -100px;
+		color:black;
+		background-color: white;
+		box-shadow: 2px 2px 30px lightgray;
+		border-radius: 10px;
+
+	}	
+	.logo2{
+		flex:1;
+			margin-top: 130px;
+	}
+	.start{
+		flex:1;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+
+	.start> div {
+	align-items: flex-start;
+	}
+	.ipsum{
+		flex-basis: 30%;
+	}
+	.number{
+		flex-basis:15%;
+	}
+	.email{
+		flex-basis:15%;
+	}
+
+	.center{
+		flex:1;
+		display: flex;
+		flex-direction: row;
+
+	}
+	.center>div{
+	margin-left: 15%;
+
+
+	}
+	.center>div>div{
+		margin-bottom: 10%;
+	}
+
+	.end{
+		flex:1;
+		display: flex;
+		flex-direction: column;
+	}
+	.media{
+		flex:3;
+		display:flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.copy{
+		flex:1;
+	}
+
+footer{
+	flex:1;
+}
+}
